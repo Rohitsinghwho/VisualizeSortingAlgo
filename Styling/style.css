@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0;
+}
+/* utility classes */
+.heading_font_style{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.options_font_style{
+    font-size: 15px;
+}
+.curve{
+    border-radius: 5px;
+}
+.btn_specification{
+    background-color: aquamarine;
+    font-size: 20px;
+    width:70px;
+    height:30px;
+    border-radius: 10px;
+    padding:3px;
+    cursor: pointer;
+    border:1px solid green
+}
+.btn_specification:hover{
+    background-color: transparent;
+}
+
+.m20{
+  margin-right:20px;  
+}
+
+/* main classes */
+/* nav classes */
+.header_Container{
+    border:1px solid black;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #7CEB45;
+}
+
+.A_size{
+    width: 124px;
+    /* border:1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Algo_c{
+    width: 246px;
+    /* border:1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.speed_c{
+    width: 170px;
+    /* border:1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

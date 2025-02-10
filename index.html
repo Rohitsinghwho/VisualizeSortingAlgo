@@ -3,26 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Styling/style.css"/>
     <title>Visualize Sorting</title>
 </head>
 <body>
     <!-- Header Section -->
-    <header class="header_Container">
-        <nav class="navBar">
+    <nav class="header_Container">
             <!-- Array Size div -->
-            <div></div>
+            <div class="m20 A_size">
+                <label class="heading_font_style">Array Size</label>
+                <select name="ArraySize" id="A_size" class="curve options_font_style">
+                    <option selected class="options_font_style">10</option>
+                    <option class="options_font_style">20</option>
+                    <option class="options_font_style">30</option>
+                    <option class="options_font_style">40</option>
+                    <option class="options_font_style">50</option>
+                </select>
+            </div>
             <!-- Sorting Selection div -->
-             <div></div>
+             <div class="m20 Algo_c">
+                <label class="heading_font_style">Select Algorithm</label>
+                <select name="SortingAlgo" id="S_algo" class="curve options_font_style">
+                    <option selected class="options_font_style">Bubble Sort</option>
+                    <option class="options_font_style">Selection Sort</option>
+                    <option class="options_font_style">Insertion Sort</option>
+                    <option class="options_font_style">Merge Sort</option>
+                    <option class="options_font_style">Quick Sort</option>
+                </select>
+             </div>
              <!-- Speed of visualization -->
-              <div></div>
+              <div class="m20 speed_c">
+                <label class="heading_font_style">Select Speed</label>
+                <select name="SpeedControler" class=" curve options_font_style">
+                    <option class="options_font_style">0.5x</option>
+                    <option class="options_font_style">0.25x</option>
+                    <option class="options_font_style">1.25x</option>
+                    <option class="options_font_style">1.5x</option>
+                    <option class="options_font_style">2x</option>
+                    <option class="options_font_style" selected >Normal</option>
+                </select>
+              </div>
               <!-- Sorting button -->
-               <button></button>
-        </nav>
+               <button id="Sortingbtn" class="btn_specification">Sort</button>
     </header>
     <!-- Visualization Section -->
     <section>
-        
+
     </section>
     <!-- script -->
      <script src="Scripts/script.js"></script>
