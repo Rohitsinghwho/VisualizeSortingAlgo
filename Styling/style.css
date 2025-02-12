@@ -64,3 +64,22 @@
     align-items: center;
     justify-content: space-between;
 }
+#bar_graph{
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+    border: 2px solid black;
+    position: relative;
+    margin:0 auto;
+}
+
+.bar{
+    width: 28px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color:#7CEB45;
+    /* height: 80px; */
+}
