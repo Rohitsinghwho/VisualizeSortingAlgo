@@ -27,7 +27,20 @@
 .btn_specification:hover{
     background-color: transparent;
 }
-
+.btn_specification1{
+    background-color: aquamarine;
+    font-size: 20px;
+    width:190px;
+    height:30px;
+    border-radius: 10px;
+    padding:3px;
+    cursor: pointer;
+    margin-left: 8px;
+    border:1px solid green
+}
+.btn_specification1:hover{
+    background-color: transparent;
+}
 .m20{
   margin-right:20px;  
 }
@@ -64,15 +77,18 @@
     align-items: center;
     justify-content: space-between;
 }
+
 #bar_graph{
     width: 900px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 420px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    border-top: none;
     position: relative;
     margin:0 auto;
+    padding: 10px;
 }
 
 .bar{
